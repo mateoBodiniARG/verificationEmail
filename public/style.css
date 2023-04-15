@@ -162,7 +162,14 @@ span {
         border-radius: 5px;
     }
 }
-
+/* ERROR POSITION */
+@media (max-width: 560px) {
+.error {
+  margin: 0.5em auto;
+  width: max-content;
+  transform: translateX(-18%);
+}
+}
 @media (max-width: 560px) {
     #TitleH1{
         font-size: 30px;
